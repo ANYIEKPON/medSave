@@ -1,0 +1,130 @@
+.thdDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0px;
+
+  .trdWraper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f8fd;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 2rem;
+
+    .leftDiv {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      flex: 5;
+      justify-content: center;
+      align-items: center;
+      height: max-content;
+      padding: 1.3rem 0rem;
+
+      .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        max-height: 360px;
+        margin-top: 0rem;
+
+        img {
+          height: 350px;
+          width: 400px;
+          border-radius: 45%;
+          overflow: hidden;
+        }
+      }
+
+      .sideSluh {
+        display: flex;
+        width: max-content;
+        gap: 7px;
+        font-size: 10px;
+        position: absolute;
+        background-color: white;
+        padding: 5px;
+        border-radius: 6px;
+        font-weight: lighter;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        top: 5.5rem;
+      }
+      .sideSluhS {
+        display: flex;
+        width: max-content;
+        gap: 7px;
+        font-size: 10px;
+        position: absolute;
+        background-color: white;
+        padding: 5px;
+        border-radius: 6px;
+        font-weight: lighter;
+        justify-content: center;
+        align-items: center;
+        right: 10px;
+        bottom: 5rem;
+      }
+    }
+
+    .rigtDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      margin-bottom: 1rem;
+      gap: 1rem;
+
+      h3 {
+        font-size: 4vw;
+        color: #29626f;
+        font-weight: bolder;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .listItem {
+          display: flex;
+          font-size: 3vw;
+
+          .listdiv {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+
+            .ico_img {
+              width: 30px;
+              height: 30px;
+              color: black;
+            }
+
+            p {
+              display: flex;
+              font-weight: 100;
+            }
+          }
+        }
+      }
+
+      button {
+        border: none;
+        background-color: #29626f;
+        padding: 10px 15px;
+        color: white;
+        width: 40%;
+        border-radius: 5px;
+      }
+    }
+  }
+}

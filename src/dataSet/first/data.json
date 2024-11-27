@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "icon": "../images/find.ico",
+    "title": "Find your doctor",
+    "text": "Choose from a variety of our medical specialists"
+  },
+  {
+    "id": "2",
+    "icon": "../images/locatn.ico",
+    "title": "Choose location",
+    "text": "Find doctors and medical offices in your area"
+  },
+  {
+    "id": "3",
+    "icon": "../images/calender.ico",
+    "title": "Find free time slot",
+    "text": "Choose a time thaat is the most convenient for you"
+  },
+  {
+    "id": "4",
+    "icon": "../images/firstaid.ico",
+    "title": "Get a solution",
+    "text": "We can hold an appointment either on video or chat"
+  }
+]

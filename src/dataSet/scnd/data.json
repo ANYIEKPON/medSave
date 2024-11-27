@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "ico": "../images/tick.ico",
+    "txt": "Find your specialist"
+  },
+  {
+    "id": "2",
+    "ico": "../images/tick.ico",
+    "txt": "Describe your problem"
+  },
+  {
+    "id": "3",
+    "ico": "../images/tick.ico",
+    "txt": "Set a meeting type"
+  },
+  {
+    "id": "4",
+    "ico": "../images/tick.ico",
+    "txt": "Book your time"
+  }
+]
